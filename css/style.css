@@ -1,65 +1,12 @@
 .hero {
   width: 100%;
-  margin: 109px 100px 69px 100px;
+  margin: 109px 0 69px 0;
 }
 
 .hero__container {
   display: flex;
 }
-
-.main-text {
-  width: 100%;
-  height: 341px;
-  border-radius: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
-  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1490196078);
-}
-
-.main-text--container {
-  display: flex;
-  justify-content: space-between;
-}
-.main-text--container img {
-  width: 92px;
-  height: 92px;
-}
-.main-text--container h3 {
-  font-family: Exo 2;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 27px;
-  width: 228px;
-  height: 48px;
-}
-.main-text--container p {
-  font-family: PT Sans;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  width: 225px;
-  height: 65px;
-}
-
-.main-text--container {
-  width: 261px;
-  height: 0px;
-  border: 1px;
-  border: 1px solid #d7d7dd;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  max-width: 1240px;
-  width: 100%;
-  margin: 0 auto;
-}
-.container .hero-title h1 {
+.hero__container .hero-title h1 {
   font-family: PT Sans;
   font-size: 52px;
   font-weight: 600;
@@ -70,7 +17,7 @@
   color: #363738;
   margin-top: 81px;
 }
-.container .hero-title p {
+.hero__container .hero-title p {
   font-family: PT Sans;
   font-size: 16px;
   font-weight: 400;
@@ -100,4 +47,101 @@
 .hero_container .hero-image {
   width: 635px;
   height: 505px;
+}
+
+.maintext {
+  max-width: 1440px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 4px 4px 20px 4px rgba(0, 0, 0, 0.1490196078);
+  margin-left: 100px;
+  margin-bottom: 67px;
+}
+
+.maintext__container {
+  display: flex;
+}
+.maintext__container img {
+  margin-top: 40px;
+  width: 92px;
+  height: 92px;
+  margin-bottom: 24px;
+}
+.maintext__container h3 {
+  font-family: Exo 2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  width: 228px;
+  height: 48px;
+  margin-bottom: 16px;
+}
+.maintext__container p {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 225px;
+  height: 65px;
+  margin-bottom: 56px;
+}
+
+.maintext__container button {
+  margin-top: 40px;
+  width: 0;
+  height: 261px;
+  margin-left: 105px;
+  margin-right: 64px;
+}
+.maintext__container .box1 {
+  margin-left: 80px;
+}
+.maintext__container .box1--last {
+  margin-right: 122px;
+  margin-left: 0;
+}
+.maintext__container .box1--last2 {
+  margin-left: 0;
+}
+
+.loremipsum {
+  width: 100%;
+  margin-bottom: 75px;
+}
+
+.loremipsum__container .loremipsum--image {
+  display: flex;
+}
+.loremipsum__container .loremipsum--image img:last-child {
+  margin-left: -1240px;
+}
+.loremipsum__container h1 {
+  font-family: PT Sans;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  width: 362px;
+  height: 109px;
+  color: white;
+  margin-top: -270px;
+  margin-left: 90px;
+}
+
+.loremipsum__container .lorem1 {
+  display: flex;
+}
+.loremipsum__container .lorem2 {
+  display: flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

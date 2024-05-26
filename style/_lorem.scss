@@ -1,0 +1,33 @@
+.loremipsum {
+  width: 100%;
+  margin-bottom: 75px;
+}
+.loremipsum__container {
+  .loremipsum--image {
+    display: flex;
+    img {
+      &:last-child {
+        margin-left: -1240px;
+      }
+    }
+  }
+  h1 {
+    font-family: PT Sans;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    width: 362px;
+    height: 109px;
+    color: white;
+    margin-top: -270px;
+    margin-left: 90px;
+  }
+}
+.loremipsum__container {
+  .lorem1 {
+    display: flex;
+  }
+  .lorem2 {
+    display: flex;
+  }
+}
