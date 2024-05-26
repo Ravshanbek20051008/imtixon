@@ -1,3 +1,5 @@
+@import "./hero";
+@import "./main-text";
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +9,50 @@
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
+  .hero-title {
+    h1 {
+      font-family: PT Sans;
+      font-size: 52px;
+      font-weight: 600;
+      line-height: 65px;
+      width: 610px;
+      height: 119px;
+      margin-bottom: 40px;
+      color: #363738;
+      margin-top: 81px;
+    }
+    p {
+      font-family: PT Sans;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      width: 525px;
+      height: 66px;
+      margin-bottom: 40px;
+      color: #6b6b6c;
+    }
+  }
+}
+.hero-title {
+  a {
+    width: 105px;
+    height: 17px;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #363738;
+    text-decoration: none;
+  }
+  hr {
+    background-color: #ffce50;
+    width: 104px;
+    height: 2px;
+  }
+}
+.hero_container {
+  .hero-image {
+    width: 635px;
+    height: 505px;
+  }
 }
