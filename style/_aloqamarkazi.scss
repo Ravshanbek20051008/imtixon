@@ -1,5 +1,6 @@
 .aloqamarkazi {
   width: 100%;
+  margin-left: 100px;
 }
 .aloqamarkazi__container {
   h1 {
@@ -57,8 +58,9 @@
     border-radius: 5px;
     border: 1px;
     background-color: #f9f9fb;
-    margin-left: 198px;
     margin-top: 72px;
+    margin-left: -60px;
+    margin-bottom: 46px;
   }
 }
 .murojat {
@@ -86,7 +88,7 @@
     margin: 32px 72px 10px 48px;
   }
   .joylashuv {
-    margin: 32px 72px 10px 48px;
+    margin: 32px 72px 56px 48px;
   }
 }
 .murojat {
@@ -101,11 +103,14 @@
       color: #363738;
       font-weight: 600;
       width: 443px;
-      margin-left: 56px;
+      //   margin-left: 56px;
     }
   }
   hr {
     width: 647px;
     margin-left: 78px;
   }
+}
+.picture {
+  margin-bottom: 166px;
 }

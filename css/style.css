@@ -89,8 +89,6 @@
   display: flex;
 }
 .maintext__container h3 {
-  width: 228px;
-  height: 48px;
   font-family: PT Sans;
   font-size: 20px;
   font-weight: 600;
@@ -102,8 +100,6 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  width: 225px;
-  height: 65px;
 }
 
 .maintext__container img {
@@ -168,8 +164,6 @@
   font-size: 48px;
   font-weight: 600;
   line-height: 60px;
-  width: 362px;
-  height: 109px;
   color: white;
   margin-top: -270px;
   margin-left: 90px;
@@ -209,8 +203,6 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 27px;
-  width: 327px;
-  height: 21px;
   color: #363738;
 }
 .loremipsum__container .lorem p {
@@ -219,8 +211,6 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  width: 291px;
-  height: 41px;
   color: #6b6b6c;
 }
 
@@ -696,6 +686,7 @@
 }
 .aloqamarkazi {
   width: 100%;
+  margin-left: 100px;
 }
 
 .aloqamarkazi__container h1 {
@@ -749,8 +740,9 @@
   border-radius: 5px;
   border: 1px;
   background-color: #f9f9fb;
-  margin-left: 198px;
   margin-top: 72px;
+  margin-left: -60px;
+  margin-bottom: 46px;
 }
 
 .murojat .manzil .nomi,
@@ -774,7 +766,7 @@
   margin: 32px 72px 10px 48px;
 }
 .murojat .joylashuv {
-  margin: 32px 72px 10px 48px;
+  margin: 32px 72px 56px 48px;
 }
 
 .murojat h3 {
@@ -789,11 +781,102 @@
   color: #363738;
   font-weight: 600;
   width: 443px;
-  margin-left: 56px;
 }
 .murojat hr {
   width: 647px;
   margin-left: 78px;
+}
+
+.picture {
+  margin-bottom: 166px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #0b7572;
+  height: 365px;
+  width: 1440px;
+}
+
+.footer__container {
+  display: flex;
+}
+.footer__container img {
+  width: 176px;
+  height: 60px;
+  margin-top: 80px;
+  margin-left: 95px;
+}
+
+.footer__container .footer__title1,
+.footer__container .footer__title2 {
+  margin-top: 80px;
+  width: 133px;
+}
+
+.footer__title1 {
+  margin-left: 135px;
+}
+.footer__title1 a {
+  font-family: PT Sans;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  letter-spacing: 0.16em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__title2 {
+  margin-left: 97px;
+}
+.footer__title2 a {
+  font-family: PT Sans;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  letter-spacing: 0.16em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__tarmoq {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.footer__tarmoq img {
+  width: 27.57px;
+  height: 27.82px;
+}
+.footer__tarmoq .fesbook {
+  margin-left: 15px;
+}
+.footer__tarmoq .insta {
+  margin-left: 0px;
+}
+
+.footer__title3 {
+  margin-left: 180px;
+}
+.footer__title3 p {
+  margin-bottom: 32px;
+  font-family: PT Sans;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  color: #ffffff;
+}
+.footer__title3 button {
+  width: 271px;
+  height: 42px;
+  background-color: #ff9619;
+  border: none;
+  color: #ffffff;
+  transition: all 0.6s;
+}
+.footer__title3 button:hover {
+  background-color: #c2a37d;
 }
 
 * {
