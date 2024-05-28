@@ -38,15 +38,18 @@
     line-height: 24px;
     color: #363738;
     text-decoration: none;
+    transition: all 0.6s;
     &:hover {
-      background-color: burlywood;
+      height: 25px;
+      width: 110px;
+      background-color: rgb(200, 136, 54);
     }
   }
-  // hr {
-  //   background-color: #ffce50;
-  //   width: 104px;
-  //   height: 2px;
-  // }
+  &::before {
+    width: 100px;
+    height: 5px;
+    background-color: #ffce50;
+  }
 }
 .hero_container {
   .hero-image {

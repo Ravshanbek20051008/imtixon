@@ -3,6 +3,7 @@
   background-color: #0b7572;
   height: 365px;
   width: 1440px;
+  margin-bottom: 500px;
 }
 .footer__container {
   display: flex;
@@ -30,6 +31,8 @@
     letter-spacing: 0.16em;
     color: #ffffff;
     text-decoration: none;
+    display: block;
+    margin-bottom: 35px;
   }
 }
 .footer__title2 {
@@ -42,6 +45,8 @@
     letter-spacing: 0.16em;
     color: #ffffff;
     text-decoration: none;
+    display: block;
+    margin-bottom: 25px;
   }
 }
 .footer__tarmoq {
@@ -81,4 +86,16 @@
       background-color: #c2a37d;
     }
   }
+}
+.footer__title4 {
+  font-family: PT Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.16em;
+  width: 374px;
+  height: 16px;
+  color: #ffffff;
+  margin-left: 650px;
+  margin-top: 30px;
 }

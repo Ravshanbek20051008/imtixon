@@ -37,9 +37,17 @@
   line-height: 24px;
   color: #363738;
   text-decoration: none;
+  transition: all 0.6s;
 }
 .hero-title a:hover {
-  background-color: burlywood;
+  height: 25px;
+  width: 110px;
+  background-color: rgb(200, 136, 54);
+}
+.hero-title::before {
+  width: 100px;
+  height: 5px;
+  background-color: #ffce50;
 }
 
 .hero_container .hero-image {
@@ -178,12 +186,12 @@
   align-items: center;
 }
 .loremipsum__container .lorem1 {
-  margin-top: 230px;
+  margin-top: 280px;
   display: flex;
   align-items: center;
 }
 .loremipsum__container .lorem2 {
-  margin-top: 230px;
+  margin-top: 280px;
   display: flex;
   align-items: center;
   margin-left: 140px;
@@ -829,6 +837,7 @@
   background-color: #0b7572;
   height: 365px;
   width: 1440px;
+  margin-bottom: 500px;
 }
 
 .footer__container {
@@ -858,6 +867,8 @@
   letter-spacing: 0.16em;
   color: #ffffff;
   text-decoration: none;
+  display: block;
+  margin-bottom: 35px;
 }
 
 .footer__title2 {
@@ -871,6 +882,8 @@
   letter-spacing: 0.16em;
   color: #ffffff;
   text-decoration: none;
+  display: block;
+  margin-bottom: 25px;
 }
 
 .footer__tarmoq {
@@ -910,6 +923,19 @@
 }
 .footer__title3 button:hover {
   background-color: #c2a37d;
+}
+
+.footer__title4 {
+  font-family: PT Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.16em;
+  width: 374px;
+  height: 16px;
+  color: #ffffff;
+  margin-left: 650px;
+  margin-top: 30px;
 }
 
 * {
