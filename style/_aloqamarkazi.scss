@@ -1,0 +1,111 @@
+.aloqamarkazi {
+  width: 100%;
+}
+.aloqamarkazi__container {
+  h1 {
+    font-family: PT Sans;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #363738;
+  }
+  .murojat {
+    display: flex;
+  }
+}
+.murojat {
+  .tel,
+  .pochta,
+  .watsap,
+  .skype {
+    display: flex;
+    margin-bottom: 45px;
+    align-items: center;
+  }
+  img {
+    width: 28px;
+    height: 28px;
+  }
+  p {
+    margin-left: 36px;
+    margin-bottom: 8px;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6b6b6c;
+  }
+  h3 {
+    margin-left: 36px;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #363738;
+  }
+}
+
+.aloqamarkazi__container {
+  .telefon {
+    margin-top: 94px;
+  }
+}
+.murojat {
+  .manzil {
+    border: 1px solid #e9eaf2;
+    width: 794px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: #f9f9fb;
+    margin-left: 198px;
+    margin-top: 72px;
+  }
+}
+.murojat {
+  .manzil {
+    .nomi,
+    .inn,
+    .kpp,
+    .ogrn,
+    .joylashuv {
+      display: flex;
+    }
+  }
+}
+.murojat {
+  .nomi {
+    margin: 48px 72px 10px 48px;
+  }
+  .inn {
+    margin: 32px 72px 10px 48px;
+  }
+  .kpp {
+    margin: 32px 72px 10px 48px;
+  }
+  .ogrn {
+    margin: 32px 72px 10px 48px;
+  }
+  .joylashuv {
+    margin: 32px 72px 10px 48px;
+  }
+}
+.murojat {
+  h3 {
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6b6b6c;
+    width: 175px;
+    &:last-child {
+      color: #363738;
+      font-weight: 600;
+      width: 443px;
+      margin-left: 56px;
+    }
+  }
+  hr {
+    width: 647px;
+    margin-left: 78px;
+  }
+}
