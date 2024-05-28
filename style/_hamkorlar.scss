@@ -1,0 +1,163 @@
+.hamkorlar {
+  width: 100%;
+  margin-left: 100px;
+}
+.hamkorlar__container {
+  .hamkorlar1 {
+    display: flex;
+    align-items: center;
+    margin-left: 46px;
+    margin-bottom: 100px;
+  }
+  .hamkorlar2 {
+    display: flex;
+    align-items: center;
+    margin-left: 46px;
+  }
+}
+.hamkorlar__container {
+  h1 {
+    width: 687px;
+    height: 49px;
+    font-family: PT Sans;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    columns: #363738;
+    margin-top: 120px;
+    margin-bottom: 90px;
+    color: #363738;
+  }
+  h3 {
+    width: 184px;
+    height: 21px;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    color: #363738;
+    margin-bottom: 14px;
+  }
+  p {
+    width: 225px;
+    height: 15px;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6b6b6c;
+    text-align: center;
+  }
+  button {
+    width: 1px;
+    height: 183px;
+    border: 1px;
+    background-color: #d7d7dd;
+    margin-left: 40px;
+    margin-right: 50px;
+  }
+}
+.hamkorlar__img1 {
+  img {
+    width: 79px;
+    height: 101px;
+    margin-bottom: 32px;
+    margin-left: 50px;
+  }
+}
+.hamkorlar__img2 {
+  img {
+    width: 149px;
+    height: 72px;
+    margin-bottom: 56px;
+    margin-left: 25px;
+  }
+}
+.hamkorlar__img3 {
+  img {
+    width: 125px;
+    height: 100px;
+    margin-bottom: 32px;
+    margin-left: 30px;
+  }
+}
+.hamkorlar__img4 {
+  img {
+    width: 77px;
+    height: 93px;
+    margin-bottom: 32px;
+    margin-left: 50px;
+  }
+}
+.hamkorlar__img5 {
+  img {
+    width: 182px;
+    height: 48px;
+    margin-bottom: 57px;
+    margin-left: 10px;
+  }
+}
+.hamkorlar__img6 {
+  img {
+    width: 95px;
+    height: 88px;
+    margin-bottom: 36px;
+    margin-left: 50px;
+  }
+}
+.hamkorlar__img7 {
+  img {
+    width: 78px;
+    height: 96px;
+    margin-bottom: 32px;
+    margin-left: 50px;
+  }
+}
+.hamkorlar__img8 {
+  img {
+    width: 145px;
+    height: 51px;
+    margin-bottom: 59px;
+  }
+}
+@media (max-width: 768px) {
+  .hamkorlar__container {
+    margin-left: 10px;
+  }
+  .hamkorlar__umumiy {
+    display: flex;
+  }
+
+  .hamkorlar__img1 img,
+  .hamkorlar__img2 img,
+  .hamkorlar__img3 img,
+  .hamkorlar__img4 img,
+  .hamkorlar__img5 img,
+  .hamkorlar__img6 img,
+  .hamkorlar__img7 img,
+  .hamkorlar__img8 img {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 576px) {
+  .hamkorlar__container {
+    margin-left: 0;
+  }
+
+  .hamkorlar__umumiy {
+    flex-wrap: wrap;
+  }
+
+  .hamkorlar__img1,
+  .hamkorlar__img2,
+  .hamkorlar__img3,
+  .hamkorlar__img4,
+  .hamkorlar__img5,
+  .hamkorlar__img6,
+  .hamkorlar__img7,
+  .hamkorlar__img8 {
+    width: 50%;
+    text-align: center;
+  }
+}

@@ -4,11 +4,79 @@
 }
 .yetkazish__container {
   h1 {
-    font-family: Exo 2;
+    font-family: PT Sans;
     font-size: 48px;
     font-weight: 600;
     line-height: 60px;
     width: 687px;
     height: 49px;
+    margin-top: 120px;
+    margin-bottom: 48px;
+    color: #363738;
+  }
+}
+
+.yetkazish__image1 {
+  display: flex;
+  width: 1183px;
+  height: 245px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 15px 4px #0000001f;
+  margin-bottom: 24px;
+  margin-left: 48px;
+}
+
+.yetkazish__image {
+  .yetkazish__image1 {
+    img {
+      margin-top: 32px;
+      margin-left: 96px;
+      width: 331px;
+      height: 181px;
+      border-radius: 4px;
+    }
+  }
+  h3 {
+    margin-top: 32px;
+    width: 258px;
+    height: 20px;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 48px;
+    margin-left: 48px;
+    color: #363738;
+  }
+  p {
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 568px;
+    height: 88px;
+    margin-left: 48px;
+    color: #6b6b6c;
+  }
+}
+@media (max-width: 768px) {
+  .yetkazish__image1 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .yetkazish__image .yetkazish__image1 img {
+    display: none;
+  }
+
+  .yetkazish__image h3 {
+    margin-left: 50px;
+  }
+
+  .yetkazish__image p {
+    margin-left: 0;
+    width: 531.9px;
+    height: 89px;
+    margin-left: 50px;
   }
 }
