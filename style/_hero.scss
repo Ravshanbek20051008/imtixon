@@ -57,7 +57,7 @@
     height: 505px;
   }
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .hero__container {
     flex-direction: column;
     align-items: center;
@@ -82,7 +82,7 @@
     }
   }
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .hero__container {
     .hero-title {
       h1 {

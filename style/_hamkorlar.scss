@@ -134,7 +134,7 @@
     margin: 0 auto;
   }
 }
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .hamkorlar__container {
     margin-left: 0;
   }

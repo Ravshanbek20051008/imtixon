@@ -55,7 +55,7 @@
   height: 505px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .hero__container {
     flex-direction: column;
     align-items: center;
@@ -75,7 +75,7 @@
     height: auto;
   }
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .hero__container .hero-title h1 {
     font-size: 24px;
   }
@@ -130,13 +130,13 @@
   margin-right: 64px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .maintext {
     width: 100%;
     margin-left: 0;
   }
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .maintext {
     height: auto;
     margin-left: 0;
@@ -226,7 +226,7 @@
   color: #6b6b6c;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .lorem {
     flex-direction: column;
   }
@@ -304,7 +304,7 @@
   margin-left: 32px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .buyurtmalar__image {
     flex-direction: column;
     align-items: center;
@@ -491,7 +491,7 @@
   margin-left: 16px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .mijozlar {
     width: 100%;
     margin-left: 0;
@@ -564,7 +564,7 @@
   color: #6b6b6c;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .yetkazish__image1 {
     width: 100%;
     margin-left: 0;
@@ -708,7 +708,7 @@
     margin: 0 auto;
   }
 }
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .hamkorlar__container {
     margin-left: 0;
   }
@@ -803,7 +803,7 @@
   margin-left: 30px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .hodimlar__box .img1 {
     width: 25px;
     height: 105px;
@@ -948,7 +948,7 @@
   margin-bottom: 166px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .murojat .nomi {
     margin: 24px 16px 10px 16px;
   }
@@ -1081,6 +1081,30 @@
   margin-top: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .footer__tarmoq {
+    margin-bottom: 16px;
+  }
+  .footer__title3 {
+    margin-left: 0;
+  }
+  .footer__title3 p {
+    margin-bottom: 16px;
+  }
+  .footer__title4 {
+    margin-left: 0;
+    margin-top: 16px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer__title3 p {
+    font-size: 11px;
+    line-height: 16.5px;
+  }
+  .footer__title3 button {
+    width: 100%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
