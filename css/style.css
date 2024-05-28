@@ -186,12 +186,12 @@
   align-items: center;
 }
 .loremipsum__container .lorem1 {
-  margin-top: 280px;
+  margin-top: 230px;
   display: flex;
   align-items: center;
 }
 .loremipsum__container .lorem2 {
-  margin-top: 280px;
+  margin-top: 230px;
   display: flex;
   align-items: center;
   margin-left: 140px;
@@ -948,4 +948,4 @@
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
