@@ -605,6 +605,82 @@
     text-align: center;
   }
 }
+.hodimlar {
+  width: 100%;
+  margin-top: 130px;
+  margin-left: 100px;
+  margin-bottom: 130px;
+}
+
+.hodimlar__container h1 {
+  width: 687px;
+  height: 49px;
+  font-family: PT Sans;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #363738;
+  margin-bottom: 72px;
+}
+
+.hodimlar__container .hodimlar__box {
+  display: flex;
+}
+.hodimlar__container .hodim {
+  width: 605px;
+  height: 210px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.hodimlar__box .img1 {
+  width: 51px;
+  height: 210px;
+}
+.hodimlar__box .img2 {
+  width: 138px;
+  height: 138px;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+
+.hodimlar__box h3 {
+  margin-left: 40px;
+  margin-top: 48px;
+  width: 165px;
+  height: 20px;
+  font-family: PT Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #363738;
+  margin-bottom: 12px;
+}
+.hodimlar__box p {
+  margin-left: 40px;
+  width: 172px;
+  height: 15px;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6b6b6c;
+  margin-bottom: 47px;
+}
+
+.ijtimoitarmoq {
+  margin-left: 40px;
+}
+.ijtimoitarmoq img {
+  margin-right: 20px;
+}
+
+.hodimlar__box .hodimlar2 {
+  margin-left: 30px;
+}
+
 * {
   margin: 0;
   padding: 0;
