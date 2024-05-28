@@ -11,6 +11,8 @@
   font-size: 52px;
   font-weight: 600;
   line-height: 65px;
+  width: 610px;
+  height: 119px;
   margin-bottom: 40px;
   color: #363738;
   margin-top: 81px;
@@ -20,6 +22,8 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  width: 525px;
+  height: 66px;
   margin-bottom: 40px;
   color: #6b6b6c;
 }
@@ -791,6 +795,33 @@
   margin-bottom: 166px;
 }
 
+@media (max-width: 768px) {
+  .murojat .nomi {
+    margin: 24px 16px 10px 16px;
+  }
+  .murojat .inn {
+    margin: 16px 16px 10px 16px;
+  }
+  .murojat .kpp {
+    margin: 16px 16px 10px 16px;
+  }
+  .murojat .ogrn {
+    margin: 16px 16px 10px 16px;
+  }
+  .murojat .joylashuv {
+    margin: 16px 16px 24px 16px;
+  }
+  .murojat h3:last-child {
+    width: auto;
+  }
+  .murojat hr {
+    width: calc(100% - 32px);
+    margin-left: 16px;
+  }
+  .picture {
+    margin-bottom: 80px;
+  }
+}
 .footer {
   width: 100%;
   background-color: #0b7572;

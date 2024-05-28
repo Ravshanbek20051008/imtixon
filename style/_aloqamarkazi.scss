@@ -114,3 +114,34 @@
 .picture {
   margin-bottom: 166px;
 }
+@media (max-width: 768px) {
+  .murojat {
+    .nomi {
+      margin: 24px 16px 10px 16px;
+    }
+    .inn {
+      margin: 16px 16px 10px 16px;
+    }
+    .kpp {
+      margin: 16px 16px 10px 16px;
+    }
+    .ogrn {
+      margin: 16px 16px 10px 16px;
+    }
+    .joylashuv {
+      margin: 16px 16px 24px 16px;
+    }
+    h3 {
+      &:last-child {
+        width: auto;
+      }
+    }
+    hr {
+      width: calc(100% - 32px);
+      margin-left: 16px;
+    }
+  }
+  .picture {
+    margin-bottom: 80px;
+  }
+}
