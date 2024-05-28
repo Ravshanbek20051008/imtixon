@@ -24,10 +24,69 @@
   }
 }
 .loremipsum__container {
-  .lorem1 {
+  .lorem {
     display: flex;
+    align-items: center;
+  }
+  .lorem1 {
+    margin-top: 230px;
+    display: flex;
+    align-items: center;
   }
   .lorem2 {
+    margin-top: 230px;
     display: flex;
+    align-items: center;
+    margin-left: 140px;
+  }
+  .lorem3 {
+    display: flex;
+    margin-top: 62px;
+  }
+  .lorem4 {
+    display: flex;
+    margin-top: 62px;
+    margin-left: 140px;
+  }
+}
+.loremipsum__container {
+  .lorem {
+    margin-left: 66px;
+    h3 {
+      margin-left: 40px;
+      font-family: PT Sans;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 27px;
+      width: 327px;
+      height: 21px;
+      color: #363738;
+    }
+    p {
+      margin-left: 40px;
+      font-family: PT Sans;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      width: 291px;
+      height: 41px;
+      color: #6b6b6c;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .lorem {
+    flex-direction: column;
+  }
+
+  .lorem2 {
+    margin-top: 0px;
+  }
+  .loremipsum__container .lorem {
+    margin-left: 0;
+    h3,
+    p {
+      margin-left: 0;
+    }
   }
 }
